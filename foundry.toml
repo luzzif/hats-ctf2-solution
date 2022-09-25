@@ -1,0 +1,9 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+remappings = [
+    'ds-test/=lib/solmate/lib/ds-test/src/',
+    'forge-std/=lib/forge-std/src/',
+    'vault-game/=lib/vault-game/contracts'
+]
